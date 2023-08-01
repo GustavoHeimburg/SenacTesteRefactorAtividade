@@ -1,7 +1,21 @@
 package com.senac.refactor;
 
-public class Circle {
+import java.util.Scanner;
 
+public class Circle {
+    public static void main(String[] args) {
+        Scanner PI = new Scanner(System.in);
+
+        System.out.println("""
+                1- Calculos de area
+                2- Calculos de perimetro
+                3- Calculos de volume
+                4- Calculos de area""");
+
+        int CalculoDeArea = PI.nextInt();
+        PI.nextLine();
+
+    }
     public double calculaAreaDoCirculo(double raio) {
         double area = Math.PI * raio * raio;
         return area;
