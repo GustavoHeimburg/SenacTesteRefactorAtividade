@@ -1,5 +1,6 @@
 package com.senac.bugs;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CreateListOfStrings {
